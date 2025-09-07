@@ -1,10 +1,11 @@
 ---
 title: Code Browser
+layout: page
 ---
 
 # Code Browser
 
-Below are all `.c` files found in `/code`. Click **Download** for the raw file, or view the inlined source.
+Below are all .c files found in /code. Click Download for the raw file, or view the inlined source.
 
 {% for file in site.static_files %}
   {% if file.path contains '/code/' and file.extname == '.c' %}

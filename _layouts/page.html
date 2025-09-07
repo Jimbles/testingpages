@@ -1,0 +1,11 @@
+---
+layout: default
+---
+{% include nav.html %}
+<main>
+  {{ content }}
+</main>
+{% if page.url != '/' and page.url != '/index.html' %}
+{% include back-home.html %}
+{% endif %}
+{% include site-footer.html %}

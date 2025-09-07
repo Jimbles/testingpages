@@ -8,10 +8,15 @@ int main(void) {
     char c = 'A';
     bool flag = true;
 
-    printf("int: %d\n", i);
-    printf("float: %.5f\n", f);
-    printf("double: %.9f\n", d);
-    printf("char: %c\n", c);
-    printf("bool: %s\n", flag ? "true" : "false");
+    printf("int: %d
+", i);
+    printf("float: %.5f
+", f);
+    printf("double: %.9f
+", d);
+    printf("char: %c
+", c);
+    printf("bool: %s
+", flag ? "true" : "false");
     return 0;
 }
